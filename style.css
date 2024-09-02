@@ -116,7 +116,7 @@ body {
 .normal-price {
 	text-decoration: line-through;
 	font-size: 0.9rem;
-	margin-top: 0.5rem;
+	margin-top: 0.6rem;
 	color: var(--color-dark-grayish-blue);
 }
 
