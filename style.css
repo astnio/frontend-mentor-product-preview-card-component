@@ -78,7 +78,7 @@ body {
 
 .category {
 	text-transform: uppercase;
-	letter-spacing: 0.4ch;
+	letter-spacing: 0.5ch;
 	font-size: 0.9rem;
 	color: var(--color-dark-grayish-blue);
 }
@@ -94,7 +94,7 @@ body {
 
 .description {
 	font-size: 0.9rem;
-	line-height: 2.8ch;
+	line-height: 2.5ch;
 	max-width: 26ch;
 	color: var(--color-dark-grayish-blue);
 }
