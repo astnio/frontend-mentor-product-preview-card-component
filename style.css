@@ -60,10 +60,14 @@ body {
 	background-color: var(--color-white);
 }
 
+/*** Card Image ***/
+
 .product-image {
 	width: 100%;
 	max-width: calc(var(--item-card-width) / 2);
 }
+
+/*** Details ***/
 
 .item-card-info {
 	display: flex;
@@ -99,6 +103,8 @@ body {
 	color: var(--color-dark-grayish-blue);
 }
 
+/*** Price ***/
+
 .price-container {
 	display: flex;
 	gap: 1rem;
@@ -119,6 +125,8 @@ body {
 	margin-top: 0.6rem;
 	color: var(--color-dark-grayish-blue);
 }
+
+/*** Button ***/
 
 button.btn-add-to-cart {
 	display: flex;
@@ -150,6 +158,8 @@ button.btn-add-to-cart:hover {
 .btn-add-to-cart-icon {
 	max-height: 100%;
 }
+
+/*** Attribution ***/
 
 .attribution {
 	margin-bottom: 1rem;
