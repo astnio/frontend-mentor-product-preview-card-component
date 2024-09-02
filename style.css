@@ -169,3 +169,30 @@ button.btn-add-to-cart:hover {
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+/*** Mobile ***/
+
+@media screen and (max-width: 1024px) {
+	.item-card {
+		flex-direction: column;
+	}
+
+	.item-card-info {
+		padding-inline: 1.7rem;
+		padding-top: 1rem;
+		gap: 1rem;
+	}
+
+	.category {
+		font-size: 0.8rem;
+	}
+
+	.title {
+		font-size: 1.9rem;
+		max-width: 100%;
+	}
+
+	.description {
+		max-width: 100%;
+	}
+}
