@@ -79,6 +79,8 @@ body {
 .category {
 	text-transform: uppercase;
 	letter-spacing: 0.4ch;
+	font-size: 0.9rem;
+	color: var(--color-dark-grayish-blue);
 }
 
 .title {
@@ -87,12 +89,14 @@ body {
 	font-family: 'Fraunces', serif;
 	line-height: 1.5ch;
 	max-width: 10ch;
+	color: var(--color-very-dark-blue);
 }
 
 .description {
 	font-size: 0.9rem;
 	line-height: 2.8ch;
 	max-width: 26ch;
+	color: var(--color-dark-grayish-blue);
 }
 
 .price-container {
@@ -113,6 +117,7 @@ body {
 	text-decoration: line-through;
 	font-size: 0.9rem;
 	margin-top: 0.4rem;
+	color: var(--color-dark-grayish-blue);
 }
 
 button.btn-add-to-cart {
