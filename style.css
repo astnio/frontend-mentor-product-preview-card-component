@@ -1,4 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--color-dark-cyan: hsl(158, 36%, 37%);
+	--color-cream: hsl(30, 38%, 92%);
+
+	--color-very-dark-blue: hsl(212, 21%, 14%);
+	--color-dark-grayish-blue: hsl(228, 12%, 48%);
+	--color-white: hsl(0, 0%, 100%);
+
+	--item-card-width: 700px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	min-height: 100dvh;
+
+	padding: 0;
+	margin: 0;
+
+	font-family: 'Montserrat', sans-serif;
+
+	background-color: var(--color-cream);
+}
+
+/*** Item Card ***/
+
+.item-card {
+	display: flex;
+
+	max-width: var(--item-card-width);
+
+	overflow: hidden;
+	border-radius: 10px;
+
+	background-color: var(--color-white);
+}
+
+.product-image {
+	width: 100%;
+	max-width: calc(var(--item-card-width) / 2);
+}
+
+.item-card-info {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-between;
+
+	max-width: calc(var(--item-card-width) / 2);
+
+	padding: 2.4rem;
+}
+
+.category {
+	text-transform: uppercase;
+	letter-spacing: 0.4ch;
+}
+
+.title {
+	font-size: 2.2rem;
+	font-weight: 700;
+	font-family: 'Fraunces', serif;
+	line-height: 1.5ch;
+	max-width: 10ch;
+}
+
+.description {
+	font-size: 0.9rem;
+	line-height: 2.8ch;
+	max-width: 26ch;
+}
+
+.price-container {
+	display: flex;
+	gap: 1rem;
+
+	width: 100%;
+}
+
+.current-price {
+	font-family: 'Fraunces', serif;
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--color-dark-cyan);
+}
+
+.normal-price {
+	text-decoration: line-through;
+	font-size: 0.9rem;
+	margin-top: 0.4rem;
+}
+
+button.btn-add-to-card {
+	width: 100%;
+
+	padding: 1rem;
+
+	border: none;
+	border-radius: 10px;
+
+	background-color: var(--color-dark-cyan);
+	color: var(--color-white);
+
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
 .attribution {
+	margin-bottom: 1rem;
 	font-size: 11px;
 	text-align: center;
 }
