@@ -121,6 +121,11 @@ body {
 }
 
 button.btn-add-to-cart {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.6rem;
+
 	width: 100%;
 
 	padding: 1rem;
@@ -140,6 +145,10 @@ button.btn-add-to-cart {
 button.btn-add-to-cart:hover {
 	cursor: pointer;
 	background-color: var(--color-darker-cyan);
+}
+
+.btn-add-to-cart-icon {
+	max-height: 100%;
 }
 
 .attribution {
